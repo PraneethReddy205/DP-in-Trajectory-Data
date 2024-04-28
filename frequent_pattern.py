@@ -62,4 +62,4 @@ for seq in topk_original:
     if seq in topk_sanitized:
         cnt+=1
 
-print(cnt)
+print("Number of matches in top",top_k,"frequent patterns :",cnt)

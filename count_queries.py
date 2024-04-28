@@ -46,6 +46,8 @@ for i in range(20):
     total_query_error+=(node_dict[query]-node_dict_sanitized[query])/node_dict[query]
 
 avg_query_error=total_query_error/20
-print(avg_query_error)
+
+print('Average Count Query Error :',avg_query_error)
+# print(avg_query_error)
 ifile.close()
 ofile.close()

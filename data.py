@@ -16,6 +16,8 @@ for line in ifile:
     ofile.write(fline+"\n")
 ifile.close()
 ofile.close()
+nums=[int(s) for s in nums]
 nums.sort()
+print('Locations in Given Database:')
 print(nums)
 

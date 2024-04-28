@@ -105,9 +105,8 @@ while (not q.empty()) and curr_height<=set_height:
         #     print(str(child.count)+"and"+str(noisy_count))
         #     print(str(noisy_count)+"is less than "+str(theta_threshold))
     root1.children=new_children
-    
-    
-print("done")
+
+
 
 bfsq = Queue(maxsize = 100000)
 bfsq.put(root)
