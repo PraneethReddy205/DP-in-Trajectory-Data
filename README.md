@@ -13,6 +13,12 @@ pip3 install -U numpy
 pip3 install -U prefixspan
 ```
 
+or you can just do
+
+```
+pip install -r requirements.txt
+```
+
 ## Achieving Differential Privacy
 
 We start with the `Trajectory_Dataset.txt` file that contains a record of Trajectories with Timestamps.
