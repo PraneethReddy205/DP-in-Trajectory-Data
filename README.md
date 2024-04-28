@@ -14,7 +14,6 @@ pip3 install -U prefixspan
 ```
 
 or you can just do
-
 ```
 pip install -r requirements.txt
 ```
